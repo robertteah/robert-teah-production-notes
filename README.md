@@ -8,7 +8,7 @@ I'm Robert Teah, a Senior DevOps / Platform / SRE Engineer with 10+ years operat
 
 - **[terraform-state-backend](./terraform-state-backend)** — S3 + DynamoDB Terraform backend with state locking, and the state-corruption incident that made locking non-negotiable.
 - **[github-actions-oidc-deploy](./github-actions-oidc-deploy)** — GitHub Actions authenticating to AWS via OIDC, no stored credentials, no rotation overhead.
-- **paperclip-vps-deploy** — *coming soon.* The CI/CD pipeline I built to deploy [Paperclip](https://github.com/robertteah/paperclip) and OpenClaw to a production VPS, currently running my own startups. Writing this one up properly once the deployment details are documented.
+- **[paperclip-vps-deploy](./paperclip-vps-deploy)** — The CI/CD pipeline and production hardening behind deploying [Paperclip](https://github.com/robertteah/paperclip) and OpenClaw to a single VPS, currently running my own startups: GHCR image builds, loopback-only containers, and a hardened Tailscale HTTPS broker instead of an open port.
 
 ## Why this repo exists
 
